@@ -6,6 +6,11 @@
 }
 a{
    color:rgba(0, 0, 0,0.8) !important;
+   transition: all 0.2s;
+}
+a:hover
+{
+   color:  rgb(254,208,63) !important;
 }
 .menu-container
 {
@@ -36,4 +41,8 @@ a{
    position: absolute;
    width: 100%;
    z-index: 1;
+}
+.active{
+   
+    color:  rgb(216, 172, 28) !important;
 }
