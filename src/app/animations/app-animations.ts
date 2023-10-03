@@ -4,7 +4,7 @@ export const fadeInOut = trigger('fadeInOut', [
   state('void', style({
     opacity: 0
   })),
-  transition('void <=> *', animate(500)),
+  transition('void <=> *', animate(1300)),
 ]);
 
 export const slideInOutLeft = trigger('slideInOutLeft', [
