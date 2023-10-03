@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+@media (min-width: 1400px) {
+    /* line 575, src/assets/scss/vendors/bootstrap.min.css */
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      max-width: 1320px !important;
+    }
+  }
+
+  .btn-primary{
+    background-color: rgb(254,208,63)!important ;
+    border-color: rgb(254,208,63) !important;
+    color:rgba(0, 0, 0,0.8) !important;
+  }
+  .btn-primary:hover{
+   color: white!important;
+  }
+  * {
+    box-sizing: border-box !important;
+  }
+  .w-100
+  {
+    width: 100% !important;
+  }
+
+  .gap-4{
+    gap: 2rem;
+  }

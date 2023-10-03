@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins', Courier, monospace;
+    font-weight: 600;
+    font-size: 17px;
+   
+}
+a{
+   color:rgba(0, 0, 0,0.8) !important;
+}
+.menu-container
+{
+   justify-content: end;
+}
+
+.menu-container ul
+{ 
+   gap: 2rem;
+}
+
+.container-logo{
+   gap: 0.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.logo{
+   max-width: 2rem;
+}
+.title-logo{
+  
+   font-weight: 700;
+   font-size: 20px;
+}
+
+.navbar{
+   position: absolute;
+   width: 100%;
+   z-index: 1;
+}

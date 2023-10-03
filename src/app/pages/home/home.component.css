@@ -1,0 +1,27 @@
+
+.container-img{
+    height: 100vh ;
+}
+
+@media  (min-width: 990px) { 
+    .title-main{
+        font-size: 50px !important;
+    }
+    .title-second{
+        font-size: 40px !important;
+    }
+}
+
+.title-main{
+    font-size: 40px;
+}
+.title-second{
+    font-size: 30px;
+}
+
+.red-social{
+    width: 2rem;
+}
+.img-responsive{
+    width: 5rem;
+}
