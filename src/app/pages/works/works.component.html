@@ -1,1 +1,65 @@
-<p>works works!</p>
+<div class="container ptb-120 ">
+    <div class="row align-items-center justify-content-start" >
+
+        <div class="col-12 mb-4" >
+            <div class="d-flex flex-column">
+               <h1 class="title-port">Work Portfolio</h1>
+               <h6 class="desc-port">
+                -Explore my projects through our featured projects gallery. Click in the card for more details.
+               </h6>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 mb-4"  *ngFor="let i of proyectos" >
+            <div class="card">      
+               <div class="image-hover">
+                <img class="card-img-top" src="assets/images/imgproyect.png" alt="Card image cap">
+             
+                <a  href="#" class="btn-hover">
+                   View Details
+                </a>
+                  
+               </div>   
+                 
+                <div class="card-body  shadow-sm mb-3">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <a href=""> <h5 class="title-card" >Title Proyect</h5></a>
+                        <div class="d-flex container-www justify-content-center align-items-center gap-2">
+                            <a href=""><img src="assets/images/git.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="assets/images/www.png" class="img-fluid" alt=""></a>
+                        </div>
+                    </div>
+                
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  </p>
+
+               
+                </div>
+               
+                <div class="d-flex gap-2 px-4 mb-2 justify-content-end" >
+                    
+                    <div class="d-flex align-items-center stack" *ngFor="let img of i.stack">
+
+                        <div class="container-stack">
+                            <img src="{{img}}" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+                </div>
+              
+              </div>
+    
+    
+
+        </div>
+
+     
+
+        
+    </div>
+
+
+
+
+</div>

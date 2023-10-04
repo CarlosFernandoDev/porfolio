@@ -10,6 +10,7 @@ import { SkillsComponent } from './pages/skills/skills.component';
 import { WorksComponent } from './pages/works/works.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

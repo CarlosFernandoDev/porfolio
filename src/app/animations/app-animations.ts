@@ -46,3 +46,16 @@ export const pulse = trigger('pulse', [
       animate('0.3s ease-in-out')
     ])
   ]);
+
+  
+export const slideInOutBottom = trigger('slideInOutBottom', [
+  state('void', style({
+    transform: 'translateY(100%)',
+    opacity: 0
+  })),
+  transition('void <=> *', [
+    animate('0.8s ease-in-out')
+  ])
+]);
+
+

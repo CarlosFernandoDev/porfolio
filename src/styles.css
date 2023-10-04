@@ -21,6 +21,16 @@
   .btn-primary:hover{
    color: white!important;
   }
+
+  .btn-secondary{
+    background-color: rgb(61, 61, 61)!important ;
+    border-color: rgb(61, 61, 61)!important ;
+    color:rgb(255, 255, 255) !important;
+  }
+  .btn-secondary:hover{
+    background-color:  rgb(254,208,63)!important ;
+    border-color:  rgb(254,208,63)!important ;}
+
   * {
     box-sizing: border-box !important;
   }
@@ -32,8 +42,29 @@
   .gap-4{
     gap: 2rem;
   }
+  .gap-2{
+    gap: 0.5rem;
+  }
 
 html
 {
   overflow-x: hidden;
+}
+
+
+.ptb-120 {
+  padding: 120px 0;
+}
+
+
+.title-port
+{
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.desc-port
+{
+  font-size: 18px;
+  font-weight: 400;
 }

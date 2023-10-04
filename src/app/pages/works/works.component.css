@@ -1,0 +1,77 @@
+.stack
+{
+    padding-right: 0px;
+    max-width: 2rem;
+}
+
+.card-img-top
+{
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px;
+    object-fit: cover; /* Esto ajustará la imagen para que cubra todo el contenedor */
+}
+.card{
+    border-top-right-radius: 15px;
+    border-top-left-radius:15px;
+    border-top: none;
+}
+
+
+@media (min-width:992px) {
+    .card-text{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3; /* Muestra un máximo de tres líneas */
+        overflow: hidden; 
+    }
+}
+@media (min-width:1208px) {
+    .card-text {
+        display: block; /* Restaurar el comportamiento de bloque para texto completo */
+        -webkit-line-clamp: initial; /* Desactivar el recorte de texto */
+        white-space: normal; /* Permitir múltiples líneas */
+        overflow: visible; /* Permitir que el texto fluya según sea necesario */
+      }
+}
+
+.container-www
+{
+    width: 20%;
+}
+
+.title-card{
+    margin-bottom: 0px !important;
+}
+.image-hover{
+
+    position: relative;
+
+}
+
+.image-hover:hover .btn-hover {
+   z-index: 0;
+  }
+
+.btn-hover{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+background-color: rgba(255, 255, 255, 0.2) !important;
+border-color: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(0.8px); 
+  color: rgb(255, 255, 255) !important;
+  font-size: 20px;
+  z-index: -1;
+}
+
+
+a{
+    text-decoration: none;
+    color: black !important;
+  }

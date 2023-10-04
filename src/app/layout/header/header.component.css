@@ -38,9 +38,10 @@ a:hover
 }
 
 .navbar{
-   position: absolute;
+   position: fixed;
    width: 100%;
    z-index: 1;
+   
 }
 .active{
    
