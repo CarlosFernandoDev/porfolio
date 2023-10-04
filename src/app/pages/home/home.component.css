@@ -1,6 +1,6 @@
 
 .container-img{
-    height: 100vh ;
+    min-height: 100vh ;
 }
 
 @media  (min-width: 990px) { 
@@ -24,4 +24,8 @@
 }
 .img-responsive{
     width: 5rem;
+}
+
+.ptb{
+    padding-top : 120px ;
 }
