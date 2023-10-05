@@ -5,17 +5,17 @@
             <div class="d-flex flex-column">
                <h1 class="title-port">Work Portfolio</h1>
                <h6 class="desc-port">
-                -Explore my projects through our featured projects gallery. Click in the card for more details.
+                -Explore some of the public projects that I have done and participated in, the private projects I am not allowed to show them.
                </h6>
             </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-4 mb-4"  *ngFor="let i of proyectos" >
+        <div class="col-12 col-md-6 col-lg-4 mb-4" >
             <div class="card">      
                <div class="image-hover">
-                <img class="card-img-top" src="assets/images/imgproyect.png" alt="Card image cap">
+                <img class="card-img-top" src="assets/images/birabar.png" alt="Card image cap">
              
-                <a  href="#" class="btn-hover">
+                <a  href="#" class="btn-hover d-none">
                    View Details
                 </a>
                   
@@ -23,30 +23,49 @@
                  
                 <div class="card-body  shadow-sm mb-3">
                     <div class="d-flex align-items-center justify-content-between mb-2">
-                        <a href=""> <h5 class="title-card" >Title Proyect</h5></a>
+              <h5 class="title-card" >BiraBar</h5>
                         <div class="d-flex container-www justify-content-center align-items-center gap-2">
-                            <a href=""><img src="assets/images/git.png" class="img-fluid" alt=""></a>
+                            <a href="https://github.com/nachopad/proyecto-final-pysw-grupo01.git" target="_blank"><img src="assets/images/git.png" class="img-fluid" alt=""></a>
                             <a href=""><img src="assets/images/www.png" class="img-fluid" alt=""></a>
                         </div>
                     </div>
                 
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  <p class="card-text">A website for a bar to take orders, manage menu, have a management and control of business reports.
                   </p>
 
                
                 </div>
                
+               
                 <div class="d-flex gap-2 px-4 mb-2 justify-content-end" >
                     
-                    <div class="d-flex align-items-center stack" *ngFor="let img of i.stack">
+                    <div class="d-flex align-items-center stack" >
 
                         <div class="container-stack">
-                            <img src="{{img}}" class="img-fluid" alt="" >
+                            <img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" class="img-fluid" alt="" >
                         </div>
                      
                     </div>
+                    <div class="d-flex align-items-center stack" >
+
+                        <div class="container-stack">
+                            <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+
+                    <div class="d-flex align-items-center stack" >
+
+                        <div class="container-stack">
+                            <img src="  https://cdn.worldvectorlogo.com/logos/nodejs.svg" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+                  
                 </div>
+
+
+
               
               </div>
     
@@ -54,12 +73,142 @@
 
         </div>
 
+
      
 
+        
+        <div class="col-12 col-md-6 col-lg-4 mb-4" >
+            <div class="card">      
+               <div class="image-hover">
+                <img class="card-img-top" src="assets/images/api.png" alt="Card image cap">
+             
+                <a  href="#" class="btn-hover d-none">
+                   View Details
+                </a>
+                  
+               </div>   
+                 
+                <div class="card-body  shadow-sm mb-3">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <h5 class="title-card" >Banking Simulation</h5>
+                        <div class="d-flex container-www justify-content-center align-items-center gap-2">
+                            <a href="https://gitlab.com/CarlosMamani/tp9-poo-grupo5" target="_blank"><img src="assets/images/git.png" class="img-fluid" alt=""></a>
+                            <a href=""><img src="assets/images/www.png" class="img-fluid" alt=""></a>
+                        </div>
+                    </div>
+                
+                  <p class="card-text">Api Rest that generates reports, sends emails and bank transactions such as balance inquiry, account information and movements.
+                  </p>
+
+               
+                </div>
+               
+                <div class="d-flex gap-2 px-4 mb-2 justify-content-end" >
+                    
+                    <div class="d-flex align-items-center stack" >
+
+                        <div class="container-stack">
+                            <img src="https://cdn.worldvectorlogo.com/logos/mysql-logo.svg" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+                    <div class="d-flex align-items-center stack" >
+
+                        <div class="container-stack">
+                            <img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+
+                    <div class="d-flex align-items-center stack" >
+
+                        <div class="container-stack">
+                            <img src="  https://cdn.worldvectorlogo.com/logos/spring-3.svg" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+                  
+                </div>
+              
+              </div>
+        </div>
+          
+        <div class="col-12 col-md-6 col-lg-4 mb-4" >
+            <div class="card">      
+               <div class="image-hover">
+                <img class="card-img-top" src="assets/images/empleo.png" alt="Card image cap">
+             
+                <a  href="#" class="btn-hover d-none">
+                   View Details
+                </a>
+                  
+               </div>   
+                 
+                <div class="card-body  shadow-sm mb-3">
+                    <div class="d-flex align-items-center justify-content-between mb-2">
+                        <h5 class="title-card">Applications</h5>
+                        <div class="d-flex container-www justify-content-center align-items-center gap-2">
+                            <a href="https://gitlab.com/CarlosMamani/tp9-poo-grupo5" target="_blank"><img src="assets/images/git.png" class="img-fluid" alt=""></a>
+                            <a href="#"><img src="assets/images/www.png" class="img-fluid" alt=""></a>
+                        </div>
+                    </div>
+                
+                  <p class="card-text">Website that allows employers to search for applicants to their offers or courses, applying security and MVC 
+                  </p>
+
+               
+                </div>
+               
+                <div class="d-flex gap-2 px-4 mb-2 justify-content-end" >
+                    
+                    <div class="d-flex align-items-center stack" >
+
+                        <div class="container-stack">
+                            <img src="https://cdn.worldvectorlogo.com/logos/mysql-logo.svg" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+                    <div class="d-flex align-items-center stack" >
+
+                        <div class="container-stack">
+                            <img src="https://cdn.worldvectorlogo.com/logos/java-14.svg" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+
+                    <div class="d-flex align-items-center stack" >
+
+                        <div class="container-stack">
+                            <img src="  https://cdn.worldvectorlogo.com/logos/spring-3.svg" class="img-fluid" alt="" >
+                        </div>
+                     
+                    </div>
+                  
+                </div>
+
+
+
+             
+
+
+                
+
+              
+              </div>
+    
+    
+
+        </div>
+
+
+     
         
     </div>
 
 
+
+
+    
 
 
 </div>
