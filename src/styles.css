@@ -21,7 +21,10 @@
   .btn-primary:hover{
    color: white!important;
   }
-
+  .btn-primary:focus {
+    box-shadow: none !important; /* Elimina la sombra al hacer clic */
+    outline-color: transparent !important; /* Cambia el color del borde a transparente */
+  }
   .btn-secondary{
     background-color: rgb(61, 61, 61)!important ;
     border-color: rgb(61, 61, 61)!important ;
